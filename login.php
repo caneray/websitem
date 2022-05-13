@@ -37,12 +37,12 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
                 exit();
 
             }else{
-                header("Location: index.php?error=Incorect User name or password");
+                header("Location: index.php?error=Kullanıcı adı yada şifre doğru değil!");
                 exit();
             }
 
         }else{
-            header("Location: index.php?error=Incorect User name or password");
+            header("Location: index.php?error=Kullanıcı adı yada şifre doğru değil!");
             exit();
         }
 

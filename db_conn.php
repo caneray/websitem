@@ -8,5 +8,5 @@ $db_name = "webphp";
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
 if (!$conn) {
-    echo "Connection failed!";
+    echo "Bağlantı Hatası!";
 }
